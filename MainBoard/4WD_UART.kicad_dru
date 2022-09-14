@@ -1,0 +1,13 @@
+(version 1)
+(rule GND_GND0
+   # wider clearance between GND tracks
+   (constraint clearance (min "0.8mm"))
+   (condition "A.NetName == 'GND' && (B.NetName == '/GND0' || B.NetName == 'GND?' || B.NetName == '+3.3VP')"))
+	
+(rule GND_VTG
+   (constraint clearance (min "0.8mm"))
+   (condition "A.NetName == '/VTG?' && B.NetName == 'GND'"))
+	
+(rule GNDX_GNDX
+   (constraint clearance (min "0.8mm"))
+   (condition "(A.NetName == 'GND?' || A.NetName == '/GND0') && ((B.NetName == 'GND?' || B.NetName == '/GND0') && B.NetName != A.NetName)"))
