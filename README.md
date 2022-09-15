@@ -60,7 +60,6 @@ ___
 ## All channels except 3 (if 3V3 is enabled) require external power supply in range from 3V to 5V to operate the output digital isolators and do the level shifting.  
 
 
-___
 Copyright (c) 2022 by Piotr Zapart  
 www.hexefx.com  
 
