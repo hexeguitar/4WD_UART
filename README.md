@@ -46,9 +46,9 @@ PCB is designed to slide into an 88x100x38mm aluminium extruded enclosure. Front
 ![alt text][mech2] 
 
 ### Front panel  
-Front panel is designed to accommodate the version with soft power switch. A normal pushbutton is used, but installed in reverse with terminals bent, as shon on the pic:  
+Front panel is designed to accommodate the version with soft power switch. A normal pushbutton is used, but installed in reverse with terminals bent, as shown on the pic:  
 ![alt text][panel1]  
-A single 1x02 0.1" SMD type pin header is used to connet the pusbutton to the main board.  
+A single 1x02 0.1" SMD type pin header is used to connect the pushbutton to the main board.  
 Light pipes for the leds can be made by pushing a tiny bit of hot glue into the holes.  
 
 ### Operation  
